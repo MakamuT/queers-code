@@ -1,0 +1,47 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    background-color: #DD1B5F;
+    color: #D9E5E7;
+}
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+}
+span{
+    background-color: white;
+    color: black;
+    display: flex;
+    
+    font-size: 30px;
+    font-weight: 500;
+    justify-content: center;
+    gap: 20px;
+}
+span i{
+    color: #DD1B5F;
+}
+.box{
+    align-items: center;
+    background-color: black;
+    display: block;
+    margin-top: 250px;
+    margin-left: 350px;
+    width: 50vw;
+}
+.gradient {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+    background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
+    background-clip: text;
+    background-size: 200%;
+}
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    } }
